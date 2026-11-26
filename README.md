@@ -70,6 +70,7 @@ Product reviews:
 3. Neutral
 4. Positive
 5. Negative
+   ![Zero-shot Output](zero_shot.png)
 
 ### Results
 
@@ -137,7 +138,7 @@ Reviews:
 3. Neutral
 4. Positive
 5. Negative
-
+![Few-shot Output](few_shot.png)
 ### Results
 
 Correct predictions: 5/5
@@ -192,6 +193,7 @@ What is his total profit or loss?
 ### Actual Model Output
 
 Profit of ₹250
+![Direct Prompt Output](direct_prompt.png)
 
 ### Verification
 
@@ -274,6 +276,7 @@ Profit = ₹1,250 − ₹1,000 = ₹250
 Final Answer:
 
 The shopkeeper makes a total profit of ₹250.
+![Chain-of-Thought Output](chain_of_thought.png)
 
 ## 4.5 Comparison and Analysis
 
@@ -315,6 +318,9 @@ The required information included:
 - Payment method
 
 The experiment also examined how the model handled missing information and different date and currency formats.
+![JSON Output](task2_JSON.png)
+
+![JSON Missing Information](task2_JSONmissinginfo.png)
 
 ## 5.2 JSON Schema and Prompt Design
 
